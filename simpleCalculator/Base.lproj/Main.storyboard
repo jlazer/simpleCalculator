@@ -645,7 +645,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="simpleCalculator" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="43.5" y="-1"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -663,42 +663,42 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="43" y="252"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="simpleCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="664" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFm-ul-9xm">
-                                <rect key="frame" x="200" y="166" width="96" height="22"/>
+                            <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFm-ul-9xm">
+                                <rect key="frame" x="291" y="125" width="96" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Number" drawsBackground="YES" id="De7-nf-iqI">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzy-Dk-TUM">
-                                <rect key="frame" x="302" y="169" width="13" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzy-Dk-TUM">
+                                <rect key="frame" x="393" y="128" width="13" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="=" id="evz-Tu-TNg">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jtk-H8-aad">
-                                <rect key="frame" x="314" y="168" width="74" height="18"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jtk-H8-aad">
+                                <rect key="frame" x="410" y="126" width="74" height="18"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" placeholderString="Outcome" id="Hkz-oN-QxM">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEK-Yl-cgV">
-                                <rect key="frame" x="109" y="163" width="86" height="26"/>
+                            <popUpButton verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEK-Yl-cgV">
+                                <rect key="frame" x="200" y="122" width="86" height="26"/>
                                 <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Uhh-QX-nRI" id="bjF-Ol-car">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
@@ -714,16 +714,8 @@
                                     <action selector="popupButtonAction:" target="XfG-lQ-9wD" id="XlX-zl-jc0"/>
                                 </connections>
                             </popUpButton>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGe-V5-9CR">
-                                <rect key="frame" x="10" y="165" width="96" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Number" drawsBackground="YES" id="d0K-KY-mAB">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5n1-s9-v8Q">
-                                <rect key="frame" x="378" y="158" width="88" height="32"/>
+                            <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5n1-s9-v8Q">
+                                <rect key="frame" x="484" y="117" width="88" height="32"/>
                                 <buttonCell key="cell" type="push" title="Calculate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FaY-eR-MbD">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -735,7 +727,34 @@ DQ
                                     <action selector="calculateOnTap:" target="XfG-lQ-9wD" id="7vn-80-Ogd"/>
                                 </connections>
                             </button>
+                            <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGe-V5-9CR">
+                                <rect key="frame" x="98" y="124" width="96" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Number" drawsBackground="YES" id="d0K-KY-mAB">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="Jtk-H8-aad" firstAttribute="leading" secondItem="tzy-Dk-TUM" secondAttribute="trailing" constant="8" id="1ij-0b-cOU"/>
+                            <constraint firstItem="zEK-Yl-cgV" firstAttribute="leading" secondItem="ZGe-V5-9CR" secondAttribute="trailing" constant="8" id="261-mO-PMM"/>
+                            <constraint firstItem="tzy-Dk-TUM" firstAttribute="leading" secondItem="pFm-ul-9xm" secondAttribute="trailing" constant="8" id="Bvc-Pf-66W"/>
+                            <constraint firstItem="5n1-s9-v8Q" firstAttribute="leading" secondItem="Jtk-H8-aad" secondAttribute="trailing" constant="8" id="Ire-VQ-sCO"/>
+                            <constraint firstItem="zEK-Yl-cgV" firstAttribute="leading" secondItem="ZGe-V5-9CR" secondAttribute="trailing" constant="8" id="KNR-2i-Ljc"/>
+                            <constraint firstItem="pFm-ul-9xm" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="KVL-Ao-dKD"/>
+                            <constraint firstItem="Jtk-H8-aad" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="L62-wd-KI2"/>
+                            <constraint firstItem="tzy-Dk-TUM" firstAttribute="leading" secondItem="pFm-ul-9xm" secondAttribute="trailing" constant="8" id="NwI-fQ-lNX"/>
+                            <constraint firstItem="5n1-s9-v8Q" firstAttribute="leading" secondItem="Jtk-H8-aad" secondAttribute="trailing" constant="8" id="XNr-0U-Ik0"/>
+                            <constraint firstItem="5n1-s9-v8Q" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="XZa-v9-Aoa"/>
+                            <constraint firstItem="tzy-Dk-TUM" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="Za1-a8-tED"/>
+                            <constraint firstItem="Jtk-H8-aad" firstAttribute="leading" secondItem="tzy-Dk-TUM" secondAttribute="trailing" constant="8" id="b0B-od-Xeu"/>
+                            <constraint firstItem="ZGe-V5-9CR" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="fRl-hk-o4N"/>
+                            <constraint firstItem="pFm-ul-9xm" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="gX5-Gf-9Ak"/>
+                            <constraint firstItem="pFm-ul-9xm" firstAttribute="leading" secondItem="zEK-Yl-cgV" secondAttribute="trailing" constant="8" id="iJW-ub-uY7"/>
+                            <constraint firstItem="zEK-Yl-cgV" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="jj6-1O-bqZ"/>
+                            <constraint firstItem="pFm-ul-9xm" firstAttribute="leading" secondItem="zEK-Yl-cgV" secondAttribute="trailing" constant="8" id="sve-dk-98T"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="number1TextField" destination="ZGe-V5-9CR" id="AYP-eA-EUV"/>
@@ -746,7 +765,7 @@ DQ
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="43" y="655"/>
         </scene>
     </scenes>
 </document>
