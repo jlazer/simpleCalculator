@@ -52,11 +52,6 @@ class ViewController: NSViewController {
         {
             outcome = Double(number1 / number2)
         }
-        func roundToPlaces(value: Double, decimalPlaces: Int) -> Double {
-            let divisor = pow(10.0, Double(decimalPlaces))
-            return round(value * divisor) / divisor
-        }
-        
         //      Displaying the outcome inside the productLabel Textfield
         productLabel.doubleValue = outcome
         print(outcome)
